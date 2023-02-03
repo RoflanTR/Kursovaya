@@ -250,7 +250,7 @@ textarea {
 .open-menu {
     padding: 20px 42px;
     background-color: #fff;
-    height: 100%;
+    height: calc(100vh + 20vh);
     z-index: 2;
     position: fixed;
     top: 0;
@@ -296,7 +296,7 @@ textarea {
 }
 
 .footer-column-first__menu {
-    position: absolute;
+    position: fixed;
     bottom: 40px;
 }
 
