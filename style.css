@@ -661,7 +661,7 @@ textarea {
     }
 
     .baner-info {
-        top: calc(50% - 100px);
+        top: calc(50% - 50px);
     }
 
     .catalog {
@@ -782,7 +782,7 @@ textarea {
     }
 
     .baner-info {
-        top: calc(50% - 78px);
+        top: calc(50% - 40px);
     }
 
     .baner-info img {
@@ -846,7 +846,7 @@ textarea {
     }
 
     .baner-info {
-        top: calc(50% - 61px);
+        top: calc(50% - 22px);
     }
 
     .baner-info img {
@@ -955,9 +955,7 @@ textarea {
 }
 
 @media(max-width: 400px) {
-    .baner-info {
-        top: calc(50% - 25px);
-    }
+    
     .block-info-card-text {
         width: 72%;
     }
