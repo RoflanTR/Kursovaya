@@ -341,6 +341,7 @@ textarea {
 .baner {
     position: relative;
     height: 735px;
+    
     margin-left: 53px;
 }
 
@@ -776,6 +777,7 @@ textarea {
 
     .baner {
         height: 400px;
+        width: 89%;
     }
 
     .baner-info {
@@ -955,9 +957,8 @@ textarea {
     .baner-info {
         top: calc(50% - 15px);
     }
-
     .baner-info img {
-        width: 12%;
+        width: 62%;
     }
 
     .block-info-card-text {
@@ -976,8 +977,6 @@ textarea {
         margin: 5px 0 5px 9px;
     }
 }
-@media(max-width: 600px){
-    .baner-info img {
-        width: 12%;
-    }
+@media(max-width: 376px){
+    
 }
