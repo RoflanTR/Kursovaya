@@ -359,6 +359,7 @@ textarea {
     width: 100%;
     max-width: 100%;
     min-width: 97%;
+    right: 3px;
 }
 
 .baner-info img {
