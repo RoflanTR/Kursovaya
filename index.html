@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodLife</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo header__logo">
+            <a href="#">
+                <img src="img/LogoProst2.svg" alt="logo">
+            </a>
+        </div>
+        <!-- <div class="oreder-call oreder-call__header">
+            <form action="" method="get">
+                <button class="order-call-btn">8(800)-555-35-35</button>
+            </form>
+            <p class="oreder-call-text">Заказать звонок</p>
+        </div> -->
+    </header>
+    <main>
+        <div class="basket">
+            <img src="icon/basket_96252.svg" alt="basket">
+            <div class="basket-value">3</div>
+        </div>
+        <div class="pop_up">
+            <div class="pop_up_conteiner">
+                <div class="pop_up_body">
+                    <div class="close-popup">
+                        <img src="icon/4115230-cancel-close-cross-delete_114048.svg" alt="close">
+                    </div>
+                    <h3 class="title">Ваш заказ:</h3>
+                    <div class="order">
+                        <img class="order-img" src="img/hhh.jpg" alt="product">
+                        <p class="product-name-basket">Форшмак из корюшки, икра сига и зеленое яблоко</p>
+                        <div class="value-product">
+                            <img id="plus" src="icon/plus.svg" alt="plus">
+                            <p class="value">1</p>
+                            <img id="minus" src="icon/minus.svg" alt="minus">
+                        </div>
+                        <div class="price-order"><span id="amount">480</span> p.</div>
+                        <img class="delete" src="icon/delete.svg" alt="delete">
+                    </div>
+                    <div class="order">
+                        <img class="order-img" src="img/hhh.jpg" alt="product">
+                        <p class="product-name-basket">Форшмак из корюшки, икра сига и зеленое яблоко</p>
+                        <div class="value-product">
+                            <img id="plus" src="icon/plus.svg" alt="plus">
+                            <p class="value">1</p>
+                            <img id="minus" src="icon/minus.svg" alt="minus">
+                        </div>
+                        <div class="price-order"><span id="amount">500</span> p.</div>
+                        <img class="delete" src="icon/delete.svg" alt="delete">
+                    </div>
+                    <div class="price-basket">Сумма: <span id="all-amount">480</span> p.</div>
+                    <form id="form-order" action="">
+                        <input type="text" placeholder="ФИО" maxlength="50">
+                        <input type="tel" placeholder="Номер телефона" maxlength="11">
+                        <input type="email" placeholder="Email" maxlength="20">
+                        <input type="text" placeholder="Адрес доставки">
+                        <textarea name="comment" id="textareaOrder" cols="30" rows="10"
+                            placeholder="Комментарий к заказу"></textarea>
+                        <input type="text" placeholder="Промокод">
+                        
+                        <button class="basket-btn" type="submit">Заказать</button>
+                    </form>
+                    <p class="agree-light">Нажимая на кнопку, вы даете согласие на обработку
+                        своих персональных данных</p>
+                    <p class="agree-bold">Заказы, оформленные после 22:30, обрабатываются на следующий день с 12:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="image-menu">
+                <img src="icon/menu_icon-icons.com_72311.png" alt="menu">
+            </div>
+            <p class="menu-text">Меню</p>
+        </div>
+        <div class="open-menu" style="display: none;">
+            <div class="background-menu"></div>
+            <div class="logo logo__menu">
+                <a href="index.html">
+                    <img src="img/LogoProst2.svg" alt="logo">
+                </a>
+            </div>
+            <div class="menu-list-title">Основное меню</div>
+            <div class="menu-list">
+                <a href="catalog.html">Мини-закуски</a>
+                <a href="#">Холодные закуски</a>
+                <a href="#">Салаты</a>
+                <a href="#">Горячие закуски</a>
+                <a href="#">Супы</a>
+                <a href="#">Овощи</a>
+                <a href="#">Рыба</a>
+                <a href="#">Мясо и птица</a>
+                <a href="#">Морепродукты</a>
+                <a href="#">Детское меню</a>
+                <a href="#">Сладкое</a>
+                <a href="#">Б\А Вино</a>
+                <a href="#">Напитки</a>
+                <a href="#">В подарок</a>
+            </div>
+            <div class="footer-column-first footer-column-first__menu">
+                <div class="footer-info">
+                    <p>Мы принимаем заказы:</p>
+                    <p>с 12:00 до 22:30</p>
+                    <p>Наш номер:</p>
+                    <p> 8 800 555 35 35</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="baner">
+            <img class="baner-background" src="img/louis-mornaud-3OyRlp9Bjug-unsplash.jpg" alt="baner">
+            <div class="baner-info">
+                <img src="img/FoodLife.svg" alt="logo">
+            </div>
+        </div>
+        <div class="block-info">
+            <div class="block-info-card">
+                <div class="block-info-card-img">
+                    <img src="icon/Safe.svg" alt="safe">
+                </div>
+                <div class="block-info-card-text">
+                    <div class="block-info-card-title">Меры безопасности</div>
+                    <div class="block-info-card-discription">Бесконтактная доставка, постоянная дезинфекция на кухне и
+                        замер температуры у сотрудников.</div>
+                </div>
+            </div>
+            <div class="block-info-card">
+                <div class="block-info-card-img">
+                    <img src="icon/Card.svg" alt="safe">
+                </div>
+                <div class="block-info-card-text">
+                    <div class="block-info-card-title">Онлайн оплата</div>
+                    <div class="block-info-card-discription">Мы принимаем VISA, MasterCard, МИР и CБП</div>
+                </div>
+            </div>
+            <div class="block-info-card">
+                <div class="block-info-card-img">
+                    <img src="icon/Meal.svg" alt="safe">
+                </div>
+                <div class="block-info-card-text">
+                    <div class="block-info-card-title">Доставка</div>
+                    <div class="block-info-card-discription">
+                        Бесплтаная доставка при заказе от 1500 рублей.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="catalog">
+            <h1 class="catalog-title">Закуски</h1>
+            <div class="product-list">
+                <article class="product-card">
+                    <a href="#?2" class="open-card">
+                        <img src="img/hhh.jpg" alt="food">
+
+                        <div class="product-info">
+                            <p class="title title_product-card">Салат авокадо</p>
+                            <p class="description description_product-card">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde quasi velit
+                                error
+                                aliquam expedita nemo laborum nesciunt, perferendis iste, tempore distinctio fugit quos
+                                dolorem id ut at rerum? Inventore.
+                            </p>
+                        </div>
+                    </a>
+                    <div class="footer-product-card">
+                        <p class="value">140 гр.</p>
+                        <button class="add-basket">+ 550 р.</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <a href="#?2" class="open-card">
+                        <img src="img/hhh.jpg" alt="food">
+
+                        <div class="product-info">
+                            <p class="title title_product-card">Салат авокадо</p>
+                            <p class="description description_product-card">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde quasi velit
+                                error
+                                aliquam expedita nemo laborum nesciunt, perferendis iste, tempore distinctio fugit quos
+                                dolorem id ut at rerum? Inventore.
+                            </p>
+                        </div>
+                    </a>
+                    <div class="footer-product-card">
+
+                        <p class="value">140 гр.</p>
+                        <button class="add-basket">+ 550 р.</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <a href="#?2" class="open-card">
+                        <img src="img/hhh.jpg" alt="food">
+
+                        <div class="product-info">
+                            <p class="title title_product-card">Салат авокадо</p>
+                            <p class="description description_product-card">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde quasi velit
+                                error
+                                aliquam expedita nemo laborum nesciunt, perferendis iste, tempore distinctio fugit quos
+                                dolorem id ut at rerum? Inventore.
+                            </p>
+                        </div>
+                    </a>
+                    <div class="footer-product-card">
+
+                        <p class="value">140 гр.</p>
+                        <button class="add-basket">+ 550 р.</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <div class="article-card">
+            <img class="close" src="icon/4115230-cancel-close-cross-delete_114048.svg" alt="cross">
+            <img class="back" src="icon/ic-back_97586.svg" alt="back">
+            <div class="content-card">
+                <div class="product-image">
+                    <img src="img/hhh.jpg" alt="product">
+                </div>
+                <div class="content-card-info">
+                    <p class="product-name">Брускетта с авокадо и розовыми томатами</p>
+                    <div class="btn btn_product-card">
+                        <p class="price">550 p.</p>
+                        <button class="add-basket add-basket_white">В корзину</button>
+
+                    </div>
+                    <div class="structure structure-value">
+                        <b>Пищевая ценность:</b><br>
+                        ккал - 408,8<br>
+                        белки - 20;<br>
+                        жиры - 34,6;<br>
+                        углеводы - 4,2.
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="product-structure">
+                <p class="structure"><b>Состав:</b> Мука, вода, маринованная корюшка, куриные желтки, лук репчатый,
+                    яблоки,
+                    оливковое масло, икра сига, лук репчатый, ароматное масло, соль, уксус винный</p>
+                <div class="structure structure-value2">
+                    <b>Пищевая ценность:</b><br>
+                    ккал - 408,8<br>
+                    белки - 20;<br>
+                    жиры - 34,6;<br>
+                    углеводы - 4,2.
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <p>Мы принимаем заказы:</p>
+            <p>с 12:00 до 22:30</p>
+            <p>Наш номер:</p>
+            <p> 8 800 555 35 35</p>
+        </div>
+        <div class="logo logo_footer">
+            <a href="#">
+                <img src="img/WhiteLogo.svg" alt="logo">
+            </a>
+        </div>
+        <div class="author">
+            <p>Проект создал:</p>
+            <p>Агафонов Руслан Витальевич </p>
+            <p>Студент группы:</p>
+            <p>ИСИП 21-11-2</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

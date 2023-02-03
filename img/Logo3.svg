@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Oswald-Regular, Oswald;
+        font-size: 131.48px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-2 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="1.06" y="0" width="118" height="710.11"/>
+  <rect class="cls-3" x="119.06" width="416.67" height="118"/>
+  <rect class="cls-3" x="119.06" y="261.67" width="287.78" height="118"/>
+  <rect class="cls-3" x="423.33" y="261.67" width="118" height="448.44"/>
+  <rect class="cls-3" x="541.33" y="592.11" width="308.78" height="118"/>
+  <text class="cls-1" transform="translate(423.33 831.28)"><tspan x="0" y="0">Food Life</tspan></text>
+</svg>
