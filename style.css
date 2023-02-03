@@ -786,7 +786,7 @@ textarea {
 
     .baner-info img {
         width: 286px;
-        display: block;
+        display: flex;
         width: 286px;
         justify-content: right;
     }
