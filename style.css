@@ -976,6 +976,8 @@ textarea {
         margin: 5px 0 5px 9px;
     }
 }
-@media(max-width: 376px){
-
+@media(max-width: 600px){
+    .baner-info img {
+        width: 12%;
+    }
 }
