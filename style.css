@@ -758,7 +758,7 @@ textarea {
 
 @media(max-width: 700px) {
     .header {
-        padding: 0px 57px;
+        padding: 0px 15px;
         margin-left: 53px;
     }
 
@@ -786,6 +786,9 @@ textarea {
 
     .baner-info img {
         width: 286px;
+        display: block;
+        width: 286px;
+        justify-content: right;
     }
 
     .block-info {
