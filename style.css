@@ -352,12 +352,13 @@ textarea {
 }
 
 .baner-info {
-    position: fixed;
+    position: absolute;
     top: calc(50% - 130px);
     display: flex;
-    right: 0;
     justify-content: right;
     width: 100%;
+    max-width: 100%;
+    min-width: 97%;
 }
 
 .baner-info img {
