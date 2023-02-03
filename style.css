@@ -362,9 +362,7 @@ textarea {
     right: 3px;
 }
 
-.baner-info img {
-    width: 477px;
-}
+
 
 .baner-title {
     font-size: 20px;
@@ -656,9 +654,7 @@ textarea {
         padding: 36px 69px;
     }
 
-    .baner-info img {
-        width: 365px;
-    }
+
 
     .baner-info {
         top: calc(50% - 100px);
@@ -785,9 +781,7 @@ textarea {
         top: calc(50% - 78px);
     }
 
-    .baner-info img {
-        width: 286px;
-    }
+
 
     .block-info {
         padding: 40px 19px;
@@ -849,9 +843,7 @@ textarea {
         top: calc(50% - 61px);
     }
 
-    .baner-info img {
-        width: 226px;
-    }
+
 
     .footer {
         padding: 40px 19px;
@@ -960,7 +952,7 @@ textarea {
     }
 
     .baner-info img {
-        width: 177px;
+        height: 34px;
     }
 
     .block-info-card-text {
