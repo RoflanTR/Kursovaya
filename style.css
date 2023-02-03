@@ -957,7 +957,7 @@ textarea {
     }
 
     .baner-info img {
-        width: 62%;
+        width: 12%;
     }
 
     .block-info-card-text {
@@ -973,6 +973,9 @@ textarea {
     }
 
     .header {
-        margin: 5px 0 5px 53px;
+        margin: 5px 0 5px 9px;
     }
+}
+@media(max-width: 376px){
+
 }
