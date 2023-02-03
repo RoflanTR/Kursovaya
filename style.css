@@ -352,9 +352,10 @@ textarea {
 }
 
 .baner-info {
-    position: absolute;
+    position: fixed;
     top: calc(50% - 130px);
     display: flex;
+    right: 0;
     justify-content: right;
     width: 100%;
 }
@@ -757,7 +758,7 @@ textarea {
 
 @media(max-width: 700px) {
     .header {
-        padding: 0 16px;
+        padding: 0px 57px;
         margin-left: 53px;
     }
 
