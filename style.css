@@ -357,13 +357,13 @@ textarea {
     /* top: calc(50% - 130px);
     display: flex;
     justify-content: right; */
-    
+    width: 100%;
 }
 
 .baner-info img {
     width: 477px;
     position: absolute;
-    right:-421px;
+    right: 0;
 }
 
 .baner-title {
@@ -779,7 +779,6 @@ textarea {
 
     .baner {
         height: 400px;
-        width: 89%;
     }
 
     .baner-info {
