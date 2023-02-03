@@ -355,7 +355,7 @@ textarea {
     position: absolute;
     top: calc(50% - 130px);
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 100%;
 }
 
@@ -957,7 +957,7 @@ textarea {
     }
 
     .baner-info img {
-        width: 112px;
+        width: 177px;
     }
 
     .block-info-card-text {
