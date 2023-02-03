@@ -357,13 +357,13 @@ textarea {
     /* top: calc(50% - 130px);
     display: flex;
     justify-content: right; */
-    width: 90%;
+    
 }
 
 .baner-info img {
     width: 477px;
     position: absolute;
-    right: 8px;
+    right:-421px;
 }
 
 .baner-title {
