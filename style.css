@@ -363,7 +363,7 @@ textarea {
 .baner-info img {
     width: 477px;
     position: absolute;
-    right: 0;
+    right: 8px;
 }
 
 .baner-title {
@@ -788,7 +788,6 @@ textarea {
 
     .baner-info img {
         width: 286px;
-        display: block;
     }
 
     .block-info {
