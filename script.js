@@ -15,9 +15,6 @@ var plus = document.querySelectorAll("#plus");
 var value = document.querySelectorAll(".value");
 var amount = document.querySelectorAll("#amount");
 var allAmount = document.querySelector("#all-amount");
-var closeMenu = document.querySelector(".background-menu");
-var windowSize = screenWidth = window.screen.width;
-
 /* Появление меню*/
 menu.onmouseover = function (event) {
   let target = event.target;
@@ -25,12 +22,6 @@ menu.onmouseover = function (event) {
   menu.style.boxShadow = "0 0 2px rgb(0 0 0 / 50%)";
   menuOpen.style.boxShadow = "0 0 10px rgb(0 0 0 / 50%)";
   body.classList.add("modal-open");
-  if(windowSize>1023){
-    closeMenu.style.display="none";
-  }
-  else{
-    closeMenu.style.display="block";
-  }
 };
 menuOpen.onmouseover = function (event) {
   let target = event.target;
@@ -38,33 +29,16 @@ menuOpen.onmouseover = function (event) {
   menu.style.boxShadow = "0 0 2px rgb(0 0 0 / 50%)";
   menuOpen.style.boxShadow = "0 0 10px rgb(0 0 0 / 50%)";
   body.classList.add("modal-open");
-  if(windowSize>1023){
-    closeMenu.style.display="none";
-  }
-  else{
-    closeMenu.style.display="block";
-  }
+
 };
-if(windowSize>1023){
-  closeMenu.style.display="none";
-  menuOpen.onmouseout = function (event) {
-    let target = event.target;
-    menu.style.boxShadow = "0 0 10px rgb(0 0 0 / 50%)";
-    menuOpen.style.boxShadow = "none";
-    menuOpen.style.display = "none";
-    body.classList.remove("modal-open");
-  
-  };
-}
+menuOpen.onmouseout = function (event) {
+  let target = event.target;
+  menu.style.boxShadow = "0 0 10px rgb(0 0 0 / 50%)";
+  menuOpen.style.boxShadow = "none";
+  menuOpen.style.display = "none";
+  body.classList.remove("modal-open");
 
-if(windowSize<1023){
-  closeMenu.addEventListener('click', function(){
-    menuOpen.style.boxShadow = "none";
-    menuOpen.style.display = "none";
-    body.classList.remove("modal-open");
-  })
-}
-
+};
 /*функции карточки товара */
 for (let index = 0; index < openCard.length; index++) {
   openCard[index].addEventListener('click', function () {

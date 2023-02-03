@@ -6,12 +6,10 @@ body {
 * {
     box-sizing: border-box;
 }
-
-textarea {
+textarea{
     max-width: 100%;
-
+    
 }
-
 a {
     text-decoration: none;
 }
@@ -29,8 +27,7 @@ button:hover {
 .logo {
     width: 78px;
 }
-
-.logo img {
+.logo img{
     width: 100%;
 }
 
@@ -90,7 +87,7 @@ button:hover {
     margin: auto;
     overflow: auto;
     height: 100%;
-    width: 43%;
+    width: 40%;
     background-color: #fff;
     position: relative;
     padding: 49px;
@@ -185,13 +182,11 @@ textarea {
     font-size: 14px;
     border: 1px solid #7e7e7e;
 }
-
-#textareaOrder {
+#textareaOrder{
     padding-top: 15px;
     min-width: 100%;
     min-height: 50px;
 }
-
 .basket-btn {
     text-align: center;
     height: 60px;
@@ -228,7 +223,7 @@ textarea {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
-    height: 120vh;
+    height: 100vh;
     width: 53px;
     background-color: #fff;
     z-index: 3;
@@ -240,7 +235,7 @@ textarea {
 }
 
 .menu-text {
-    position: fixed;
+    position: absolute;
     bottom: 40px;
     font-size: 20px;
     transform: rotateZ(267deg);
@@ -250,23 +245,12 @@ textarea {
 .open-menu {
     padding: 20px 42px;
     background-color: #fff;
-    height: 120vh;
+    height: 100%;
     z-index: 2;
     position: fixed;
     top: 0;
     left: 52px;
     overflow: auto;
-}
-
-.background-menu {
-    position: fixed;
-    top: 0;
-    left: 305px;
-    background-color: #000;
-    opacity: .2;
-    width: 100%;
-    height: 100%;
-
 }
 
 .logo__menu {
@@ -296,7 +280,7 @@ textarea {
 }
 
 .footer-column-first__menu {
-    position: fixed;
+    position: absolute;
     bottom: 40px;
 }
 
@@ -341,7 +325,7 @@ textarea {
 .baner {
     position: relative;
     height: 735px;
-    
+    margin-bottom: 35px;
     margin-left: 53px;
 }
 
@@ -354,18 +338,14 @@ textarea {
 
 .baner-info {
     position: absolute;
-    /* top: calc(50% - 130px);
+    top: calc(50% - 130px);
     display: flex;
-    justify-content: right; */
+    justify-content: end;
     width: 100%;
-    top: calc(50% - 64px);
 }
 
 .baner-info img {
     width: 477px;
-    position: absolute;
-    right: 0;
-    padding-right: 10px;
 }
 
 .baner-title {
@@ -546,8 +526,6 @@ textarea {
     height: 100%;
     display: none;
     z-index: 3;
-    padding-bottom: 100px;
-    overflow-y: scroll;
 }
 
 .content-card {
@@ -557,7 +535,7 @@ textarea {
 }
 
 .product-image {
-    width: 40%;
+    width: 44%;
 }
 
 .product-image img {
@@ -608,15 +586,12 @@ textarea {
     font-size: 20px;
     line-height: 1.7;
 }
-
-.product-structure {
+.product-structure{
     margin: 0 195px;
 }
-
-.btn_product-card {
+.btn_product-card{
     margin-bottom: 20px;
 }
-
 .close {
     width: 35px;
     position: absolute;
@@ -633,11 +608,9 @@ textarea {
     cursor: pointer;
 
 }
-
-.structure-value2 {
+.structure-value2{
     display: none;
 }
-
 @media(max-width: 1518px) {
 
     .block-info {
@@ -657,15 +630,12 @@ textarea {
     .block-info {
         padding: 36px 69px;
     }
-
-    .baner-info img {
+    .baner-info img{
         width: 365px;
     }
-
     .baner-info {
-        top: calc(50% - 50px);
+        top: calc(50% - 100px);
     }
-
     .catalog {
         padding: 36px 69px;
     }
@@ -673,16 +643,13 @@ textarea {
     .footer {
         padding: 36px 69px;
     }
-
-    .content-card {
+    .content-card{
         margin: 163px 80px 72px 80px;
     }
-
-    .product-structure {
+    .product-structure{
         margin: 0 80px;
     }
-
-    .pop_up_body {
+    .pop_up_body{
         width: 60%;
     }
 }
@@ -746,15 +713,12 @@ textarea {
     .basket img {
         width: 35px;
     }
-
-    .structure-value {
+    .structure-value{
         display: none;
     }
-
-    .structure-value2 {
+    .structure-value2{
         display: block;
     }
-
     .pop_up_body {
         width: 81%;
     }
@@ -762,7 +726,7 @@ textarea {
 
 @media(max-width: 700px) {
     .header {
-        padding: 0px 15px;
+        padding: 0 16px;
         margin-left: 53px;
     }
 
@@ -780,11 +744,11 @@ textarea {
     }
 
     .baner {
-        height: 400px;
+        height: auto;
     }
 
     .baner-info {
-        top: calc(50% - 40px);
+        top: calc(50% - 78px);
     }
 
     .baner-info img {
@@ -815,27 +779,21 @@ textarea {
     .basket {
         right: 30px;
     }
-
-    .content-card {
+    .content-card{
         margin: 163px 12px 72px 12px;
     }
-
-    .product-name {
+    .product-name{
         font-size: 21px;
     }
-
-    .price {
+    .price{
         size: 19px;
     }
-
-    .add-basket_white {
+    .add-basket_white{
         height: 43px;
     }
-
-    .product-structure {
+    .product-structure{
         margin: 0 12px;
     }
-
     .pop_up_body {
         width: 95%;
         padding: 9px;
@@ -846,15 +804,13 @@ textarea {
     .block-info-card-img {
         margin: auto 0;
     }
-
     .baner-info {
-        top: calc(50% - 22px);
+        top: calc(50% - 61px);
     }
 
     .baner-info img {
-        width: 178px;
+        width: 226px;
     }
-
     .footer {
         padding: 40px 19px;
         flex-wrap: nowrap;
@@ -867,11 +823,9 @@ textarea {
     .footer-info p:nth-child(2n) {
         font-size: 16px;
     }
-
-    .logo_footer {
-        width: 125px;
-    }
-
+   .logo_footer{
+    width: 125px;
+   }
     .basket {
         width: 40px;
         height: 40px;
@@ -887,93 +841,54 @@ textarea {
         font-size: 11px;
         bottom: -3px;
     }
-
     .open-menu {
-        padding: 9px 16px;
-    }
-
-    .add-basket_white {
-        width: 100px;
-        font-size: 13px;
-    }
-
-    .background-menu {
-        left: 254px;
-    }
-
-    .price {
-        font-size: 16px;
-    }
-
-    .product-name {
-        font-size: 16px;
-    }
-
-    .structure {
-        font-size: 15px;
-    }
-
-    .back {
-        width: 16px;
-    }
-
-    .close {
-        width: 23px;
-    }
+        padding: 9px 16px;}
+        .add-basket_white{
+            width: 100px;
+            font-size: 13px;
+        }
+        .price{
+            font-size: 16px;
+        }
+        .product-name{
+            font-size: 16px;
+        }
+        .structure{
+            font-size: 15px;
+        }
+        .back{
+            width: 16px;
+        }
+        .close{
+            width: 23px;
+        }
 
 
 
-    .order-img {
-        width: 25%;
-    }
-
-    .product-name-basket {
-        font-size: 14px;
-        width: 30%;
-    }
-
-    .value-product img {
-        width: 17px;
-    }
-
-    .delete {
-        width: 17px;
-    }
-
-    .price-order {
-        font-size: 14px;
-    }
-
-    .value {
-        font-size: 14px;
-    }
+        .order-img{
+            width: 25%;
+        }
+        
+        .product-name-basket{
+            font-size: 14px;
+            width: 30%;
+        }
+        .value-product img{
+            width: 17px;
+        }
+        .delete{
+            width: 17px;
+        }
+        .price-order{
+            font-size: 14px;
+        }
+        .value{
+            font-size:14px;
+        }
 }
-
 @media(max-height: 768px) {
-    .footer-info {
-        display: none;
-    }
-
+.footer-info{
+    display: none;
 }
 
-@media(max-width: 400px) {
-    
-    .block-info-card-text {
-        width: 72%;
-    }
-
-    .block-info-card-img {
-        margin: 0;
-    }
-
-    .price {
-        font-size: 14px;
-    }
-
-    .header {
-        margin: 5px 0 5px 51px;
-    }
-}
-@media(max-width: 376px){
-    
 }
