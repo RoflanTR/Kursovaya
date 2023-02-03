@@ -354,14 +354,16 @@ textarea {
 
 .baner-info {
     position: absolute;
-    top: calc(50% - 130px);
+    /* top: calc(50% - 130px);
     display: flex;
-    justify-content: right;
+    justify-content: right; */
     width: 100%;
 }
 
 .baner-info img {
     width: 477px;
+    position: absolute;
+    right: 0;
 }
 
 .baner-title {
@@ -786,9 +788,7 @@ textarea {
 
     .baner-info img {
         width: 286px;
-        display: flex;
-        width: 286px;
-        justify-content: right;
+        display: block;
     }
 
     .block-info {
@@ -977,7 +977,7 @@ textarea {
     }
 
     .header {
-        margin: 5px 0 5px 9px;
+        margin: 5px 0 5px 51px;
     }
 }
 @media(max-width: 376px){
