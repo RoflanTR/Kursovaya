@@ -956,12 +956,8 @@ textarea {
 
 @media(max-width: 400px) {
     .baner-info {
-        top: calc(50% - 15px);
+        top: calc(50% - 25px);
     }
-    .baner-info img {
-        width: 62%;
-    }
-
     .block-info-card-text {
         width: 72%;
     }
